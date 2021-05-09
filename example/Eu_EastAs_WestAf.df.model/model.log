@@ -1,0 +1,292 @@
+===
+Epoch 1/100 62976/189000, loss: H-0.286861 O-0.001134
+Epoch 1/100 125952/189000, loss: H-0.527428 O-0.136396
+Epoch 1/100 188928/189000, loss: H-0.247059 O-0.043942
+Epoch 1/100, train_loss: H-0.200452  O-0.019137  valid_loss: H-0.192746  O-0.020091
+Decrease valid_loss from -1.000000 to 0.212837, save the newest model.
+===
+Epoch 2/100 62976/189000, loss: H-0.071412 O-0.000720
+Epoch 2/100 125952/189000, loss: H-0.455399 O-0.002217
+Epoch 2/100 188928/189000, loss: H-0.104596 O-0.000004
+Epoch 2/100, train_loss: H-0.160890  O-0.014794  valid_loss: H-0.161297  O-0.014438
+Decrease valid_loss from 0.212837 to 0.175736, save the newest model.
+===
+Epoch 3/100 62976/189000, loss: H-0.103815 O-0.006141
+Epoch 3/100 125952/189000, loss: H-0.109184 O-0.000645
+Epoch 3/100 188928/189000, loss: H-0.067687 O-0.003067
+Epoch 3/100, train_loss: H-0.142939  O-0.016559  valid_loss: H-0.144972  O-0.018025
+Decrease valid_loss from 0.175736 to 0.162997, save the newest model.
+===
+Epoch 4/100 62976/189000, loss: H-0.100266 O-0.002881
+Epoch 4/100 125952/189000, loss: H-0.213707 O-0.018029
+Epoch 4/100 188928/189000, loss: H-0.034488 O-0.000463
+Epoch 4/100, train_loss: H-0.136607  O-0.013636  valid_loss: H-0.126715  O-0.012698
+Decrease valid_loss from 0.162997 to 0.139413, save the newest model.
+===
+Epoch 5/100 62976/189000, loss: H-0.062848 O-0.001544
+Epoch 5/100 125952/189000, loss: H-0.093647 O-0.000009
+Epoch 5/100 188928/189000, loss: H-0.136340 O-0.000629
+Epoch 5/100, train_loss: H-0.130953  O-0.012259  valid_loss: H-0.133318  O-0.014618
+Not decrease valid_loss.
+===
+Epoch 6/100 62976/189000, loss: H-0.201568 O-0.036378
+Epoch 6/100 125952/189000, loss: H-0.031033 O-0.013029
+Epoch 6/100 188928/189000, loss: H-0.085933 O-0.000886
+Epoch 6/100, train_loss: H-0.128023  O-0.013362  valid_loss: H-0.129785  O-0.013644
+Not decrease valid_loss.
+===
+Epoch 7/100 62976/189000, loss: H-0.102703 O-0.018047
+Epoch 7/100 125952/189000, loss: H-0.079223 O-0.027801
+Epoch 7/100 188928/189000, loss: H-0.076973 O-0.000224
+Epoch 7/100, train_loss: H-0.125894  O-0.014035  valid_loss: H-0.126349  O-0.013398
+Not decrease valid_loss.
+===
+Epoch 8/100 62976/189000, loss: H-0.115186 O-0.010915
+Epoch 8/100 125952/189000, loss: H-0.085689 O-0.003714
+Epoch 8/100 188928/189000, loss: H-0.036778 O-0.004920
+Epoch 8/100, train_loss: H-0.124227  O-0.013884  valid_loss: H-0.123652  O-0.014216
+Decrease valid_loss from 0.139413 to 0.137868, save the newest model.
+===
+Epoch 9/100 62976/189000, loss: H-0.046889 O-0.000000
+Epoch 9/100 125952/189000, loss: H-0.140128 O-0.004535
+Epoch 9/100 188928/189000, loss: H-0.066126 O-0.006772
+Epoch 9/100, train_loss: H-0.122587  O-0.011913  valid_loss: H-0.123652  O-0.014388
+Not decrease valid_loss.
+Training based on the values of trainable variables of the saved best model.
+===
+Epoch 10/100 62976/189000, loss: H-0.188294 O-0.003803
+Epoch 10/100 125952/189000, loss: H-0.079082 O-0.000645
+Epoch 10/100 188928/189000, loss: H-0.080310 O-0.000774
+Epoch 10/100, train_loss: H-0.123194  O-0.014697  valid_loss: H-0.117857  O-0.013756
+Decrease valid_loss from 0.137868 to 0.131613, save the newest model.
+===
+Epoch 11/100 62976/189000, loss: H-0.399626 O-0.003372
+Epoch 11/100 125952/189000, loss: H-0.038260 O-0.000026
+Epoch 11/100 188928/189000, loss: H-0.270042 O-0.017164
+Epoch 11/100, train_loss: H-0.121336  O-0.013429  valid_loss: H-0.123820  O-0.010820
+Not decrease valid_loss.
+===
+Epoch 12/100 62976/189000, loss: H-0.096397 O-0.000134
+Epoch 12/100 125952/189000, loss: H-0.122575 O-0.043133
+Epoch 12/100 188928/189000, loss: H-0.147501 O-0.000028
+Epoch 12/100, train_loss: H-0.120173  O-0.011699  valid_loss: H-0.123922  O-0.012631
+Not decrease valid_loss.
+===
+Epoch 13/100 62976/189000, loss: H-0.294049 O-0.013588
+Epoch 13/100 125952/189000, loss: H-0.137450 O-0.000892
+Epoch 13/100 188928/189000, loss: H-0.144286 O-0.000490
+Epoch 13/100, train_loss: H-0.119845  O-0.013407  valid_loss: H-0.118113  O-0.012947
+Decrease valid_loss from 0.131613 to 0.131060, save the newest model.
+===
+Epoch 14/100 62976/189000, loss: H-0.054363 O-0.010748
+Epoch 14/100 125952/189000, loss: H-0.092760 O-0.002679
+Epoch 14/100 188928/189000, loss: H-0.106560 O-0.010783
+Epoch 14/100, train_loss: H-0.118752  O-0.013031  valid_loss: H-0.121160  O-0.013366
+Not decrease valid_loss.
+===
+Epoch 15/100 62976/189000, loss: H-0.126834 O-0.007669
+Epoch 15/100 125952/189000, loss: H-0.066253 O-0.000227
+Epoch 15/100 188928/189000, loss: H-0.218030 O-0.002908
+Epoch 15/100, train_loss: H-0.118332  O-0.012511  valid_loss: H-0.118961  O-0.011059
+Decrease valid_loss from 0.131060 to 0.130020, save the newest model.
+===
+Epoch 16/100 62976/189000, loss: H-0.083571 O-0.000045
+Epoch 16/100 125952/189000, loss: H-0.036662 O-0.000046
+Epoch 16/100 188928/189000, loss: H-0.072444 O-0.000333
+Epoch 16/100, train_loss: H-0.117179  O-0.012887  valid_loss: H-0.124243  O-0.012339
+Not decrease valid_loss.
+Training based on the values of trainable variables of the saved best model.
+===
+Epoch 17/100 62976/189000, loss: H-0.152273 O-0.006699
+Epoch 17/100 125952/189000, loss: H-0.031859 O-0.000000
+Epoch 17/100 188928/189000, loss: H-0.277731 O-0.019666
+Epoch 17/100, train_loss: H-0.117291  O-0.012308  valid_loss: H-0.122440  O-0.013999
+Not decrease valid_loss.
+===
+Epoch 18/100 62976/189000, loss: H-0.148098 O-0.010382
+Epoch 18/100 125952/189000, loss: H-0.171972 O-0.007103
+Epoch 18/100 188928/189000, loss: H-0.036758 O-0.000053
+Epoch 18/100, train_loss: H-0.117896  O-0.012847  valid_loss: H-0.112014  O-0.012227
+Decrease valid_loss from 0.130020 to 0.124242, save the newest model.
+===
+Epoch 19/100 62976/189000, loss: H-0.042740 O-0.000000
+Epoch 19/100 125952/189000, loss: H-0.085402 O-0.001330
+Epoch 19/100 188928/189000, loss: H-0.087197 O-0.006600
+Epoch 19/100, train_loss: H-0.116786  O-0.012260  valid_loss: H-0.117803  O-0.012969
+Not decrease valid_loss.
+===
+Epoch 20/100 62976/189000, loss: H-0.095750 O-0.000541
+Epoch 20/100 125952/189000, loss: H-0.203140 O-0.004070
+Epoch 20/100 188928/189000, loss: H-0.201761 O-0.018760
+Epoch 20/100, train_loss: H-0.116969  O-0.011845  valid_loss: H-0.112931  O-0.012274
+Not decrease valid_loss.
+===
+Epoch 21/100 62976/189000, loss: H-0.040522 O-0.000002
+Epoch 21/100 125952/189000, loss: H-0.188001 O-0.028958
+Epoch 21/100 188928/189000, loss: H-0.036044 O-0.000044
+Epoch 21/100, train_loss: H-0.116185  O-0.011724  valid_loss: H-0.116853  O-0.012555
+Not decrease valid_loss.
+Training based on the values of trainable variables of the saved best model.
+===
+Epoch 22/100 62976/189000, loss: H-0.124460 O-0.013979
+Epoch 22/100 125952/189000, loss: H-0.160270 O-0.038631
+Epoch 22/100 188928/189000, loss: H-0.177128 O-0.004012
+Epoch 22/100, train_loss: H-0.116817  O-0.011605  valid_loss: H-0.117745  O-0.014957
+Not decrease valid_loss.
+===
+Epoch 23/100 62976/189000, loss: H-0.079210 O-0.000175
+Epoch 23/100 125952/189000, loss: H-0.105022 O-0.000409
+Epoch 23/100 188928/189000, loss: H-0.119928 O-0.073843
+Epoch 23/100, train_loss: H-0.117111  O-0.011259  valid_loss: H-0.111621  O-0.012379
+Decrease valid_loss from 0.124242 to 0.124000, save the newest model.
+===
+Epoch 24/100 62976/189000, loss: H-0.118684 O-0.000430
+Epoch 24/100 125952/189000, loss: H-0.228312 O-0.009411
+Epoch 24/100 188928/189000, loss: H-0.069569 O-0.005463
+Epoch 24/100, train_loss: H-0.116396  O-0.015299  valid_loss: H-0.114648  O-0.014220
+Not decrease valid_loss.
+===
+Epoch 25/100 62976/189000, loss: H-0.187515 O-0.015529
+Epoch 25/100 125952/189000, loss: H-0.128669 O-0.024905
+Epoch 25/100 188928/189000, loss: H-0.082856 O-0.000126
+Epoch 25/100, train_loss: H-0.115547  O-0.011444  valid_loss: H-0.119490  O-0.012147
+Not decrease valid_loss.
+===
+Epoch 26/100 62976/189000, loss: H-0.218319 O-0.001782
+Epoch 26/100 125952/189000, loss: H-0.054138 O-0.000046
+Epoch 26/100 188928/189000, loss: H-0.109485 O-0.003439
+Epoch 26/100, train_loss: H-0.115932  O-0.011433  valid_loss: H-0.113475  O-0.011564
+Not decrease valid_loss.
+Training based on the values of trainable variables of the saved best model.
+===
+Epoch 27/100 62976/189000, loss: H-0.177459 O-0.019414
+Epoch 27/100 125952/189000, loss: H-0.046590 O-0.000000
+Epoch 27/100 188928/189000, loss: H-0.419787 O-0.105901
+Epoch 27/100, train_loss: H-0.115949  O-0.011693  valid_loss: H-0.118495  O-0.012580
+Not decrease valid_loss.
+===
+Epoch 28/100 62976/189000, loss: H-0.037003 O-0.000001
+Epoch 28/100 125952/189000, loss: H-0.152472 O-0.010752
+Epoch 28/100 188928/189000, loss: H-0.116977 O-0.005561
+Epoch 28/100, train_loss: H-0.116328  O-0.012730  valid_loss: H-0.112379  O-0.012154
+Not decrease valid_loss.
+===
+Epoch 29/100 62976/189000, loss: H-0.071441 O-0.000000
+Epoch 29/100 125952/189000, loss: H-0.336121 O-0.332552
+Epoch 29/100 188928/189000, loss: H-0.171733 O-0.011141
+Epoch 29/100, train_loss: H-0.115866  O-0.012100  valid_loss: H-0.114088  O-0.012729
+Not decrease valid_loss.
+===
+Epoch 30/100 62976/189000, loss: H-0.181375 O-0.000296
+Epoch 30/100 125952/189000, loss: H-0.120878 O-0.000761
+Epoch 30/100 188928/189000, loss: H-0.279636 O-0.067750
+Epoch 30/100, train_loss: H-0.116209  O-0.012755  valid_loss: H-0.107977  O-0.010239
+Decrease valid_loss from 0.124000 to 0.118216, save the newest model.
+===
+Epoch 31/100 62976/189000, loss: H-0.186772 O-0.006351
+Epoch 31/100 125952/189000, loss: H-0.107368 O-0.002688
+Epoch 31/100 188928/189000, loss: H-0.032098 O-0.000031
+Epoch 31/100, train_loss: H-0.115137  O-0.012678  valid_loss: H-0.115679  O-0.013356
+Not decrease valid_loss.
+Training based on the values of trainable variables of the saved best model.
+===
+Epoch 32/100 62976/189000, loss: H-0.094388 O-0.000232
+Epoch 32/100 125952/189000, loss: H-0.027660 O-0.001603
+Epoch 32/100 188928/189000, loss: H-0.037378 O-0.002245
+Epoch 32/100, train_loss: H-0.115809  O-0.011362  valid_loss: H-0.109355  O-0.011988
+Not decrease valid_loss.
+===
+Epoch 33/100 62976/189000, loss: H-0.033396 O-0.000000
+Epoch 33/100 125952/189000, loss: H-0.085006 O-0.006884
+Epoch 33/100 188928/189000, loss: H-0.066230 O-0.000185
+Epoch 33/100, train_loss: H-0.115096  O-0.011460  valid_loss: H-0.113798  O-0.010975
+Not decrease valid_loss.
+===
+Epoch 34/100 62976/189000, loss: H-0.112481 O-0.000110
+Epoch 34/100 125952/189000, loss: H-0.042532 O-0.000016
+Epoch 34/100 188928/189000, loss: H-0.055709 O-0.003300
+Epoch 34/100, train_loss: H-0.114553  O-0.012906  valid_loss: H-0.116605  O-0.014526
+Not decrease valid_loss.
+===
+Epoch 35/100 62976/189000, loss: H-0.077905 O-0.032345
+Epoch 35/100 125952/189000, loss: H-0.082414 O-0.012746
+Epoch 35/100 188928/189000, loss: H-0.063713 O-0.037533
+Epoch 35/100, train_loss: H-0.114596  O-0.011047  valid_loss: H-0.114793  O-0.012424
+Not decrease valid_loss.
+Training based on the values of trainable variables of the saved best model.
+===
+Epoch 36/100 62976/189000, loss: H-0.173734 O-0.000746
+Epoch 36/100 125952/189000, loss: H-0.202825 O-0.028890
+Epoch 36/100 188928/189000, loss: H-0.159981 O-0.005678
+Epoch 36/100, train_loss: H-0.115188  O-0.014486  valid_loss: H-0.114641  O-0.013848
+Not decrease valid_loss.
+===
+Epoch 37/100 62976/189000, loss: H-0.025378 O-0.000429
+Epoch 37/100 125952/189000, loss: H-0.135012 O-0.027873
+Epoch 37/100 188928/189000, loss: H-0.202125 O-0.050756
+Epoch 37/100, train_loss: H-0.114923  O-0.012522  valid_loss: H-0.116407  O-0.012646
+Not decrease valid_loss.
+===
+Epoch 38/100 62976/189000, loss: H-0.082729 O-0.000314
+Epoch 38/100 125952/189000, loss: H-0.035533 O-0.000658
+Epoch 38/100 188928/189000, loss: H-0.088641 O-0.000967
+Epoch 38/100, train_loss: H-0.114901  O-0.011723  valid_loss: H-0.115567  O-0.011630
+Not decrease valid_loss.
+===
+Epoch 39/100 62976/189000, loss: H-0.027293 O-0.004114
+Epoch 39/100 125952/189000, loss: H-0.060034 O-0.000014
+Epoch 39/100 188928/189000, loss: H-0.086014 O-0.000891
+Epoch 39/100, train_loss: H-0.114961  O-0.012300  valid_loss: H-0.111631  O-0.010560
+Not decrease valid_loss.
+Training based on the values of trainable variables of the saved best model.
+===
+Epoch 40/100 62976/189000, loss: H-0.182339 O-0.000866
+Epoch 40/100 125952/189000, loss: H-0.255427 O-0.001596
+Epoch 40/100 188928/189000, loss: H-0.104040 O-0.005345
+Epoch 40/100, train_loss: H-0.115401  O-0.011084  valid_loss: H-0.113373  O-0.010690
+Not decrease valid_loss.
+===
+Epoch 41/100 62976/189000, loss: H-0.064391 O-0.000019
+Epoch 41/100 125952/189000, loss: H-0.039275 O-0.011173
+Epoch 41/100 188928/189000, loss: H-0.153120 O-0.018836
+Epoch 41/100, train_loss: H-0.114784  O-0.011752  valid_loss: H-0.116607  O-0.012783
+Not decrease valid_loss.
+Reduce lr from 0.010000 to 0.005000.
+===
+Epoch 42/100 62976/189000, loss: H-0.058021 O-0.000000
+Epoch 42/100 125952/189000, loss: H-0.032536 O-0.000597
+Epoch 42/100 188928/189000, loss: H-0.014569 O-0.000000
+Epoch 42/100, train_loss: H-0.114600  O-0.010768  valid_loss: H-0.117370  O-0.011916
+Not decrease valid_loss.
+Reduce lr from 0.005000 to 0.002500.
+===
+Epoch 43/100 62976/189000, loss: H-0.109662 O-0.001592
+Epoch 43/100 125952/189000, loss: H-0.019622 O-0.000001
+Epoch 43/100 188928/189000, loss: H-0.061606 O-0.000002
+Epoch 43/100, train_loss: H-0.114874  O-0.010702  valid_loss: H-0.114338  O-0.009728
+Not decrease valid_loss.
+Training based on the values of trainable variables of the saved best model.
+Reduce lr from 0.002500 to 0.001250.
+===
+Epoch 44/100 62976/189000, loss: H-0.119437 O-0.002714
+Epoch 44/100 125952/189000, loss: H-0.078604 O-0.000204
+Epoch 44/100 188928/189000, loss: H-0.082901 O-0.000092
+Epoch 44/100, train_loss: H-0.115236  O-0.010644  valid_loss: H-0.116394  O-0.010080
+Not decrease valid_loss.
+Reduce lr from 0.001250 to 0.000625.
+===
+Epoch 45/100 62976/189000, loss: H-0.101205 O-0.000498
+Epoch 45/100 125952/189000, loss: H-0.035237 O-0.000008
+Epoch 45/100 188928/189000, loss: H-0.061364 O-0.002623
+Epoch 45/100, train_loss: H-0.115465  O-0.010302  valid_loss: H-0.114174  O-0.011944
+Not decrease valid_loss.
+Reduce lr from 0.000625 to 0.000313.
+===
+Epoch 46/100 62976/189000, loss: H-0.237082 O-0.015079
+Epoch 46/100 125952/189000, loss: H-0.063351 O-0.000132
+Epoch 46/100 188928/189000, loss: H-0.215989 O-0.008234
+Epoch 46/100, train_loss: H-0.115568  O-0.010519  valid_loss: H-0.113180  O-0.009713
+Not decrease valid_loss.
+Reduce lr from 0.000313 to 0.000156.
+EarlyStopping! Because valid_loss has not been decreased through 15 epochs.
+Training done! Epoch 30 has best valid_loss 0.118216, in which H_valid_loss is 0.107977, O_valid_loss is 0.010239.
