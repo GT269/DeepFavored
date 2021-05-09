@@ -11,19 +11,20 @@ $pip install -r requiredments.txt
 ```
 ### Contents:
 This directory contains the following:
-1. DeepFavored.py - interface for training and using DeepFavored
-2. train.py
-3. identify.py
-4. network.py 
-5. utils.py
-6. DeepFavored.json - config file containing the hyper parameters for DeepFavored
-7. requirements.txt - list of the dependencies for running DeepFavored
-8. example/ - example input and output of the training and identifying
-    train_data/
-        Eu_EastAs_WestAf/ - example directory containing training data, which just are a little part of the complete                           dataset(too big to upload) for showing how to run DeepFavored
-    Eu_EastAs_WestAf.df.model/ - directory containing the DeepFavored model that we trained to analyse CEU,                                 CHB and YRI as documented in the [manuscript](https://www.)
-    test_data/ - example test data 
-    test_data_identified/ - example output of DeepFavored
+
+    1. DeepFavored.py - interface for training and using DeepFavored
+    2. train.py
+    3. identify.py
+    4. network.py 
+    5. utils.py
+    6. DeepFavored.json - config file containing the hyper parameters for DeepFavored
+    7. requirements.txt - list of the dependencies for running DeepFavored
+    8. example/ - example input and output of the training and identifying
+            Train_data/
+                Eu_EastAs_WestAf/ - example directory containing training data, which just are a little part of the complete dataset(too big to upload) for showing how to run DeepFavored        
+            Eu_EastAs_WestAf.df.model/ - directory containing the DeepFavored model that we trained to analyse CEU, CHB and YRI as documented in the [manuscript](https://www.)
+            test_data/ - example test data 
+            test_data_identified/ - example output of DeepFavored
 
 ### Training DeepFavored:
 #### Usage:  
@@ -39,21 +40,20 @@ This directory contains the following:
 ##### Content of config file:
 ```
 {    "modelHyparamDict": { #Hyper parameters for defining the architecture of DeepFavored
-        "H_hiddenLayer_nodeNum": [  
+        "H_hiddenLayer_nodeNum": [  #The number of layers and the number of nodes in each layer for the hidden layer specific to the 'H' classifier
             64,
             64,
             64
         ],
-        "H_outLayer_actiFunc": "softmax",
-        "H_outLayer_nodeNum": 2,
-        "O_hiddenLayer_nodeNum": [
+        "H_outLayer_actiFunc": "softmax", #Activation function of the output layer of the 'H' classifier
+        "H_outLayer_nodeNum": 2, #The number of nodes in the output layer of the 'H' classifier
+        "O_hiddenLayer_nodeNum": [ #The number of layers and the number of nodes in each layer for the hidden layer specific to the 'O' classifier
             16
         ],
-        "O_outLayer_actiFunc": "softmax",
-        "O_outLayer_nodeNum": 2,
-        "hiddenLayer_actiFunc": "relu",
-        "modelClass": "TwoOutBranch",
-        "sharedLayer_nodeNum": [0]
+        "O_outLayer_actiFunc": "softmax", #Activation function of the output layer of the 'O' classifier
+        "O_outLayer_nodeNum": 2, #The number of nodes in the output layer of the 'H' classifier
+        "hiddenLayer_actiFunc": "relu", #Activation function for all of the hidden layers
+        "sharedLayer_nodeNum": [0] #The number of layers and the number of nodes in each layer for the hidden layer shared by 'H' and 'O' classifier
     },
     "trainDataParamDict": { #Hyper parameters for training data
         "componentStats": [
@@ -88,7 +88,7 @@ This directory contains the following:
 ```
 
 ##### Content of training data directory:
-1. Directory hierarchy.The following files and directories must be in a single directory, the path to which will be passed to *DeepFavored.py train* using the flag --trainData.
+1. Directory hierarchy. The following files and directories must be in a single directory, the path to which will be passed to *DeepFavored.py train* using the flag --trainData.
      >     favored_mutations/  
      >         exampleFile1.tsv
      >         exampleFile2.tsv  
@@ -137,15 +137,17 @@ $ python DeepFavored.py train --config ./DeepFavored.json
 
 #### Output:
 Each output file(suffixed by *.df.out*) is a TAB separated file in the following format.
-    |Pos| DF_H |DF_O |DF  |
-    |:-:|:----:|:---:|:--:|
-    |102| 0.9  | 0.8 |0.72|
-    |...| ...  | ... | ...|
+
+| Pos  | DF_H | DF_O |  DF  |
+|:----:|:----:|:----:|:----:|
+| 102  | 0.9  |  0.8 | 0.72 |
+| ...  | ...  |  ... | ...  |
+
 With following headers:
--Pos: Position (bp) sorted in ascending order
--DF_H: Score output by the 'H' classifier
--DF_H: Score output by the 'O' classifier
--DF: DeepFavored score, equal to DF_H times DF_O
+- Pos: Position (bp) sorted in ascending order
+- DF_H: Score output by the 'H' classifier
+- DF_H: Score output by the 'O' classifier
+- DF: DeepFavored score, equal to DF_H times DF_O
 
 #### Examples:  
 ```
