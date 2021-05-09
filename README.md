@@ -56,7 +56,7 @@ This directory contains the following:
         "sharedLayer_nodeNum": [0] #The number of layers and the number of nodes in each layer for the hidden layer shared by 'H' and 'O' classifier
     },
     "trainDataParamDict": { #Hyper parameters for training data
-        "componentStats": [
+        "componentStats": [ #Component statistics integrated by DeepFavored currently
             "Fst",
             "DDAF",
             "iHS",
@@ -65,30 +65,30 @@ This directory contains the following:
             "nSL",
             "DiHH"
         ],
-        "favMutNum": 10000,
-        "hitchNeutMutNum": 200000,
-        "ordNeutMutNum": 200000
+        "favMutNum": 10000, #The number of favored mutations
+        "hitchNeutMutNum": 200000, #The number of hitchhiking neutral mutations
+        "ordNeutMutNum": 200000 #The number of ordinary neutral mutations
     },
     "trainParamDict": { #Hyper parameters for training DeepFavored
         "batch_size": 32, #Number of the mutations in each batch for mini-batch training
-        "early_stop_epochs": 15,
-        "epochs": 100,
+        "early_stop_epochs": 15, #Number of epochs to stop training if no improvement in loss occurs
+        "epochs": 100, #Max number of epochs to continue training
         "hidden_batchnorm": true,
         "hidden_dropout": 0,
         "l1_coef": 0,
         "l2_coef": 0,
-        "loss_func": "BinaryCrossentropy",
-        "lr": 0.01,
-        "optimizer_H": "Adadelta",
-        "optimizer_O": "Adam",
-        "reduce_lr_epochs": 10,
-        "init":"glorot_uniform"
+        "loss_func": "BinaryCrossentropy", 
+        "lr": 0.01, #learning rate
+        "optimizer_H": "Adadelta", #Optimization method for the 'H' classifier
+        "optimizer_O": "Adam", #Optimization method for the 'H' classifier
+        "reduce_lr_epochs": 10, #Number of epochs to reduce learning rate if no improvement in loss occurs
+        "init":"glorot_uniform" #Initialization method for weights
     }
 }
 ```
 
 ##### Content of training data directory:
-1. Directory hierarchy. The following files and directories must be in a single directory, the path to which will be passed to *DeepFavored.py train* using the flag --trainData.
+1. Directory hierarchy. The following files and directories must be in a single directory, the path to which will be passed to *DeepFavored.py train* using the flag *--trainData*.
      >     favored_mutations/  
      >         exampleFile1.tsv
      >         exampleFile2.tsv  
