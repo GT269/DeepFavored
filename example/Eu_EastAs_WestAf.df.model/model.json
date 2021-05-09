@@ -13,7 +13,6 @@
         "O_outLayer_actiFunc": "softmax",
         "O_outLayer_nodeNum": 2,
         "hiddenLayer_actiFunc": "relu",
-        "modelClass": "TwoOutBranch",
         "sharedLayer_nodeNum": [
             0
         ]
