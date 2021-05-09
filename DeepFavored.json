@@ -1,0 +1,47 @@
+{    "modelHyparamDict": {
+        "H_hiddenLayer_nodeNum": [
+            64,
+            64,
+            64
+        ],
+        "H_outLayer_actiFunc": "softmax",
+        "H_outLayer_nodeNum": 2,
+        "O_hiddenLayer_nodeNum": [
+            16
+        ],
+        "O_outLayer_actiFunc": "softmax",
+        "O_outLayer_nodeNum": 2,
+        "hiddenLayer_actiFunc": "relu",
+        "modelClass": "TwoOutBranch",
+        "sharedLayer_nodeNum": [0]
+    },
+    "trainDataParamDict": {
+        "componentStats": [
+                "XPEHH",
+                "iHS",
+                "Fst",
+                "DDAF",
+                "iSAFE",
+                "nSL",
+                "DiHH"
+            ],
+        "favMutNum": 10000,
+        "hitchNeutMutNum": 200000,
+        "ordNeutMutNum": 200000
+    },
+    "trainParamDict": {
+        "batch_size": 32,
+        "early_stop_epochs": 15,
+        "epochs": 100,
+        "hidden_batchnorm": true,
+        "hidden_dropout": 0,
+        "l1_coef": 0,
+        "l2_coef": 0,
+        "loss_func": "BinaryCrossentropy",
+        "lr": 0.01,
+        "optimizer_H": "Adadelta",
+        "optimizer_O": "Adam",
+        "reduce_lr_epochs": 10,
+        "init":"glorot_uniform"
+    }
+}
